@@ -39,8 +39,8 @@ const questions = [
  { 
     type: 'list',
     message: 'Which liscense do you want to add',
-    name: 'liscenses'
-    Choices: [
+    name: 'liscenses',
+    choices: [
         'None',
         'MIT',
         'GPL',
@@ -62,10 +62,24 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const fileName = 'README.md';
+
+function writeToFile(fileName, data) {
+ //use fs to write a new file with the data returend from your generateMarkdown function
+    let content = generateMarkdown(data)
+    fs.writeFile(fileName, content, (err) =>
+    err ? console.error(err) : console.log('Success!')
+);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    //Start your inquierer prompt, passing in array of questions
+    inquirer.prompt(questions).then(generateMarkdown => {
+        writeToFile(fileName, generateMarkdown(data));  
+    });
+
+}
 
 // Function call to initialize app
 init();

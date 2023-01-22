@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { default: Choices } = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -66,8 +65,7 @@ const fileName = 'README.md';
 
 function writeToFile(fileName, data) {
  //use fs to write a new file with the data returend from your generateMarkdown function
-    let content = generateMarkdown(data)
-    fs.writeFile(fileName, content, (err) =>
+    fs.writeFile(fileName, generateMarkdown(data), (err) =>
     err ? console.error(err) : console.log('Success!')
 );
 }
@@ -75,8 +73,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     //Start your inquierer prompt, passing in array of questions
-    inquirer.prompt(questions).then(generateMarkdown => {
-        writeToFile(fileName, generateMarkdown(data));  
+    inquirer.prompt(questions).then((data) => {
+        writeToFile(fileName, data);  
     });
 
 }

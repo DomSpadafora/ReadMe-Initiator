@@ -37,8 +37,8 @@ const questions = [
  },
  { 
     type: 'list',
-    message: 'Which liscense do you want to add',
-    name: 'liscenses',
+    message: 'Which license do you want to add',
+    name: 'license',
     choices: [
         'None',
         'MIT',
@@ -50,7 +50,7 @@ const questions = [
  { 
     type: 'input',
     message: 'What is your Github username?',
-    name: 'userName'
+    name: 'username'
  },
  { 
     type: 'input',

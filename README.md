@@ -1,4 +1,4 @@
-# lasjkdf
+# README Generator
 
   ![MIT](https://img.shields.io/badge/license-MIT-green)
 
@@ -15,22 +15,22 @@
 
   ## Installation
   To install the necessary dependencies, run the following command:
-  undefined
+  You will need to install inquirer: npm i inquirer
 
   ## Usage
-  asdlkjasdf
+  Answer the prompted questions when asked. Then a ReadME file is generated once all questions have been answered.
 
   ## License 
   This project is licensed under the MIT license.
 
   ## Contributing
-  undefined
+  Dom Spadafora
 
   ## Tests
   To run tests, run the following command:
-  asdlfjaskd
+  no testing at this time
   
   ## Questions
-  If you have any questions about this repo, open an issue or contact me directly at [daf](mailto:daf).
-  You can find more of my work at [asdf](https://www.github.com/asdf).
+  If you have any questions about this repo, open an issue or contact me directly at [domspadafora@gmail.com](mailto:domspadafora@gmail.com).
+  You can find more of my work at [DomSpadafora](https://www.github.com/DomSpadafora).
 

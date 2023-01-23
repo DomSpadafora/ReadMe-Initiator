@@ -3,7 +3,9 @@
   ![MIT](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
-  The ReadMe Generator gives developers that ability to create a professional and consistent ReadMe for every project. All you need to do is answer a few        questions and a ReadME is produced containing a Project Title.
+  The ReadMe Generator gives developers that ability to create a professional and consistent ReadMe for every project. All you need to do is answer a few questions and a ReadME is produced containing a Project Title
+
+  [Video Demonstration](../../../Downloads/Untitled_%20Jan%2023,%202023%205_25%20PM.webm)
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -15,10 +17,10 @@
 
   ## Installation
   To install the necessary dependencies, run the following command:
-  You will need to install inquirer: npm i inquirer
+  npm i inquirer
 
   ## Usage
-  Answer the prompted questions when asked. Then a ReadME file is generated once all questions have been answered.
+  Answer all the questions when prompted then a ReadMe will be generated.
 
   ## License 
   This project is licensed under the MIT license.

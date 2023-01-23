@@ -3,7 +3,7 @@
   ![MIT](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
-  undefined
+  The ReadMe Generator gives developers that ability to create a professional and consistent ReadMe for every project. All you need to do is answer a few        questions and a ReadME is produced containing a Project Title.
 
   ## Table of Contents
   1. [Installation](#installation)

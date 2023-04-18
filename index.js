@@ -18,7 +18,7 @@ const questions = [
  { 
     type: 'input',
     message: 'Please note any dependancies that need to be install? ',
-    name: 'install'
+    name: 'dependancies'
  },
  { 
     type: 'input',

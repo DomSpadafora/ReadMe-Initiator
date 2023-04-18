@@ -18,7 +18,7 @@ function generateMarkdown(data) {
 
   ## Installation
   To install the necessary dependencies, run the following command:
-  ${data.install}
+  ${data.dependancies}
 
   ## Usage
   ${data.usage}

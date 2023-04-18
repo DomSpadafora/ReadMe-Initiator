@@ -1,11 +1,9 @@
-# README Generator
+# BeatBots 
 
   ![MIT](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
-  The ReadMe Generator gives developers that ability to create a professional and consistent ReadMe for every project. All you need to do is answer a few questions and a ReadME is produced containing a Project Title
-
-  [Video Demonstration](https://drive.google.com/file/d/1I-vTQf7Dh41rEmqJGBH4fLWG1ffRrPS1/view)
+  BeatBots is a social media platform for up and coming artists, users looking for new music and anyone looking for interaction prefaced on musical interests.
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -17,22 +15,22 @@
 
   ## Installation
   To install the necessary dependencies, run the following command:
-  npm i inquirer
+  To install this repo, the `package.json` is provided. You will need to clone donw the repository and run `npm install`. This will install all necessary dependacies.
 
   ## Usage
-  Answer all the questions when prompted then a ReadMe will be generated.
+  Once on the landing page you will need to signup. This will take you to the home page which is where most of the interactions are posted.
 
   ## License 
   This project is licensed under the MIT license.
 
   ## Contributing
-  Dom Spadafora
+  Ashlynn Wood, Eric Graves, Jacob Studstill, Alexander Nash, Dom Spadafora
 
   ## Tests
   To run tests, run the following command:
-  no testing at this time
+  
   
   ## Questions
-  If you have any questions about this repo, open an issue or contact me directly at [domspadafora@gmail.com](mailto:domspadafora@gmail.com).
-  You can find more of my work at [DomSpadafora](https://www.github.com/DomSpadafora).
+  If you have any questions about this repo, open an issue or contact me directly at [](mailto:).
+  You can find more of my work at [](https://www.github.com/).
 

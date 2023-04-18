@@ -17,7 +17,7 @@ const questions = [
  },
  { 
     type: 'input',
-    message: 'Please write any installation instructions nescessary:',
+    message: 'Please note any dependancies that need to be install? ',
     name: 'install'
  },
  { 
@@ -30,11 +30,7 @@ const questions = [
     message: 'Include who help contribute to this project:',
     name: 'credit'
  },
- { 
-    type: 'input',
-    message: 'Please describe and show how to run tests with code examples:',
-    name: 'tests'
- },
+
  { 
     type: 'list',
     message: 'Which license do you want to add',
